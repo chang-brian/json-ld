@@ -28,7 +28,7 @@ module JSON
     require 'json/ld/extensions'
     require 'json/ld/format'
     require 'json/ld/utils'
-    autoload :API,                'json/ld/api'
+    require 'json/ld/api'
     autoload :ContentNegotiation, 'json/ld/conneg'
     autoload :Context,            'json/ld/context'
     autoload :Normalize,          'json/ld/normalize'
