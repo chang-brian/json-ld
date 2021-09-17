@@ -31,7 +31,7 @@ module JSON
     require 'json/ld/api'
     require 'json/ld/conneg'
     require 'json/ld/context'
-    require 'json/ld/normalize'
+    autoload :Normalize, 'json/ld/normalize'
     require 'json/ld/reader'
     require 'json/ld/resource'
     require 'json/ld/streaming_reader'
